@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+.env
+*.env
+
+# Alembic cache
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# App cache
+app/**/__pycache__/
+
+# Docker (override config)
+docker-compose.override.yml
+
+# Git folder (jangan commit ulang kalau repo baru)
+.git/
+
+# Test cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
