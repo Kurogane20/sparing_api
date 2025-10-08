@@ -43,3 +43,5 @@ docker-compose.override.yml
 .mypy_cache/
 .coverage
 htmlcov/
+
+docker-compose.yml
